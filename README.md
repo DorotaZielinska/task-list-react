@@ -1,5 +1,5 @@
 # Task-List
-![Task-List-react](%PUBLIC_URL%/tasks-list-update.png)
+![Task-List-react](.public/tasks-list-update.png)
 ## Demo
 
 This application it will be easy to use, when interactons will be added. The way off use it will be, please type in the first field ("Co jest do zrobienia?") what would you like to add to your task list, the next step is to
