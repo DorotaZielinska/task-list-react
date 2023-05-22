@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DorotaZielinska/task-list-react.git/static/css/main.f0c924c6.css",
+    "main.js": "/DorotaZielinska/task-list-react.git/static/js/main.b79a7242.js",
+    "static/js/787.489a4165.chunk.js": "/DorotaZielinska/task-list-react.git/static/js/787.489a4165.chunk.js",
+    "index.html": "/DorotaZielinska/task-list-react.git/index.html",
+    "main.f0c924c6.css.map": "/DorotaZielinska/task-list-react.git/static/css/main.f0c924c6.css.map",
+    "main.b79a7242.js.map": "/DorotaZielinska/task-list-react.git/static/js/main.b79a7242.js.map",
+    "787.489a4165.chunk.js.map": "/DorotaZielinska/task-list-react.git/static/js/787.489a4165.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0c924c6.css",
+    "static/js/main.b79a7242.js"
+  ]
+}
