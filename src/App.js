@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from './Buttons';
@@ -22,6 +22,15 @@ function App() {
 
   };
 
+  const toggleTaskDone = (id) => {
+    setTasks(tasks => tasks.map(task => {
+      if (task.id === id) {
+        return { ...task, done: !task.done };
+      }
+      return task;
+    }));
+  }
+
   return (
     <Container>
       <Header title="Lista zadań" />
@@ -32,7 +41,13 @@ function App() {
       <Section
         title="Lista zadań"
         extraHeaderContent={<Buttons tasks={tasks} hideDone={hideDone} toggleHideDone={toggleHideDone} />}
-        body={<Tasks tasks={tasks} hideDone={hideDone} removeTask={removeTask} />}
+        body={
+        <Tasks 
+        tasks={tasks} 
+        hideDone={hideDone} 
+        removeTask={removeTask} 
+        toggleTaskDone={toggleTaskDone}
+        />}
       />
     </Container>
   );
