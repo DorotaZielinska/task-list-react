@@ -1,13 +1,13 @@
 # Task-List
 ![Task-List-react](public/tasks-list-update.png)
 ## Demo
-
-This application it will be easy to use, when interactons will be added. The way off use it will be, please type in the first field ("Co jest do zrobienia?") what would you like to add to your task list, the next step is to
+ https://dorotazielinska.github.io/task-list-react/
+This application it will be easy to use, and already with interactions. The way off use is, please type in the first field ("Co jest do zrobienia?") what would you like to add to your task list, the next step is to
 press button ("Dodaj zadanie") after that you will see bellow "Lista zadań" everything what you have added to your list. The green box you can use to mark that your task is done and red box is to remove your task from yours list.
 Right now they are new two buttons "Ukryj ukończone" you can use it if you wants to hide tasks which are done. The second button "Ukończ wszystkie" is marking all tasks as done.
 
 ## Description
-This application I created as a homework of my programing cours at You Code, the main task was to remove old aplication task-list to library react, at the moment is without intractions, but you can see how is looking layout of this aplication.
+This application I created as a homework of my programing cours at You Code, the main task was to remove old aplication task-list to library react.
 The main prupose of that application is to make a list of tasks which would you like to do, to mark what you have done already and remove task from your list or to hide done tasks.
 
 ## Technologies
