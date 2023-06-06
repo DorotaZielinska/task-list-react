@@ -8,7 +8,7 @@ press button ("Dodaj zadanie") after that you will see bellow "Lista zadań" eve
 Right now they are new two buttons "Ukryj ukończone" you can use it if you wants to hide tasks which are done. The second button "Ukończ wszystkie" is marking all tasks as done.
 
 ## Description
-This application I created as a homework of my programing cours at You Code, the main task was to remove old aplication task-list to library react.
+This application I created as a homework of my programing cours at You Code, the main task was to remove old aplication task-list to library react and to add localStorage.
 The main prupose of that application is to make a list of tasks which would you like to do, to mark what you have done already and remove task from your list or to hide done tasks.
 
 ## Technologies
@@ -18,6 +18,8 @@ The main prupose of that application is to make a list of tasks which would you 
 - BEM convention
 - React
 - Babel
+- hook useState, useEffect
+- localStorage
 
 # Getting Started with Create React App
 
