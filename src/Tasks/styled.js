@@ -14,13 +14,13 @@ export const Item = styled.li`
     padding: 10px;
     border-bottom: 1px solid #ccc;
 
-    ${({hidden}) => hidden && css`
+    ${({ hidden }) => hidden && css`
        display: none;
     `}
 `;
 
 export const Content = styled.span`
-    ${({done}) => done && css`
+    ${({ done }) => done && css`
         text-decoration: line-through;
 ` }   
 `;
@@ -33,7 +33,7 @@ export const Button = styled.button`
     padding: 0;
     transition: 1s;
 
-    ${({toggleDone}) => toggleDone && css`
+    ${({ toggleDone }) => toggleDone && css`
         background-color: ${({ theme }) => theme.color.japaneseLaurel};
 
         &:hover {
@@ -45,18 +45,18 @@ export const Button = styled.button`
         }
     `}
 
-    ${({remove}) => remove && css`
-    background-color: ${({ theme }) => theme.color.darkBurgundy};
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    ${({ remove }) => remove && css`
+         background-color: ${({ theme }) => theme.color.darkBurgundy};
+         background-size: auto;
+         background-position: center;
+         background-repeat: no-repeat;
 
-    &:hover {
-        background-color: ${({ theme }) => theme.color.milanoRed};
-    }
+         &:hover {
+            background-color: ${({ theme }) => theme.color.milanoRed};
+        }
 
-    &:active {
-        background-color: ${({theme}) => theme.color.milanoRedBrighter};
-    }
+        &:active {
+            background-color: ${({theme}) => theme.color.milanoRedBrighter};
+        }
     `}
 `;
