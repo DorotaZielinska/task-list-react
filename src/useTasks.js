@@ -1,17 +1,11 @@
 import { useState, useEffect } from "react";
 
-const getInitialTasks = () => {
-    const defaultTask = [
-        { id: 1, content: "przejść na Reacta", done: false },
-        { id: 2, content: "zjeść obiad", done: true },
-    ];
+const defaultTask = [
+    { id: 1, content: "przejść na Reacta", done: false },
+    { id: 2, content: "zjeść obiad", done: true },
+];
 
-    const localStorageTasks = localStorage.getItem("tasks");
-
-    return localStorageTasks
-        ? JSON.parse(localStorageTasks)
-        : [] || defaultTask;
-};
+const getInitialTasks = () => JSON.parse(localStorage.getItem("tasks")) || defaultTask
 
 export const useTasks = () => {
     const [tasks, setTasks] = useState(getInitialTasks);
@@ -31,7 +25,7 @@ export const useTasks = () => {
             }
             return task;
         }));
-    }
+    };
 
     const setAllDone = () => {
         setTasks(tasks => tasks.map(task => ({
