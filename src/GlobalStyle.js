@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: rgb(229, 229, 250);
+  background-color: ${({ theme }) => theme.color.vistaBlue};
   font-family: 'Lato', sans-serif;
   word-break: break-word;
 }
