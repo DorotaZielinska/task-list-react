@@ -1,14 +1,14 @@
 # Task-List
-![Task-List-react](public/tasks-list-update.png)
+![Task-List-react](public/todoListcurrentscreen.png)
 ## Demo
 https://dorotazielinska.github.io/task-list-react/
 
-This application it will be easy to use, and already with interactions. The way off use is, please type in the first field ("Co jest do zrobienia?") what would you like to add to your task list, the next step is to
+This application is easy to use, and already with interactions. The way off use is, please type in the first field ("Co jest do zrobienia?") what would you like to add to your task list, the next step is to
 press button ("Dodaj zadanie") after that you will see bellow "Lista zadań" everything what you have added to your list. The green box you can use to mark that your task is done and red box is to remove your task from yours list.
 Right now they are new two buttons "Ukryj ukończone" you can use it if you wants to hide tasks which are done. The second button "Ukończ wszystkie" is marking all tasks as done.
 
 ## Description
-This application I created as a homework of my programing cours at You Code, the main task was to remove old aplication task-list to library react and to add localStorage.
+This application I created as a homework of my programing cours at You Code, the main task was to remove old aplication task-list to library react and react-redux and redus.js/toolkit.
 The main prupose of that application is to make a list of tasks which would you like to do, to mark what you have done already and remove task from your list or to hide done tasks.
 
 ## Technologies
@@ -16,10 +16,11 @@ The main prupose of that application is to make a list of tasks which would you 
 - CSS(grid,flex)
 - JAVA SCRIPT(immutability)
 - BEM convention
-- React
 - Babel
-- hook useState, useEffect
-- localStorage
+- React hooks: useState, useRef
+- React-Redux: Provider
+- React-Redux hooks: useSelector, useDispatch
+- Styled Components, theme - ThemeProvider
 
 # Getting Started with Create React App
 
