@@ -14,7 +14,7 @@ function* fetchExampleTasksHnadler() {
 }
 
 function* saveTasksInLocalStorageHandler() {
-    const tasks = yield select(selectTasks);
+    const { tasks }  = yield select(selectTasks);
     yield call(saveTasksInLocalStorage, tasks);
 }
 export function* watchFetchExampleTasks() {
