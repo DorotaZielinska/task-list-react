@@ -1,23 +1,12 @@
-import { HashRouter, NavLink, Switch, Route, Redirect } from "react-router-dom/cjs/react-router-dom";
+import { HashRouter, Switch, Route, Redirect } from "react-router-dom/cjs/react-router-dom";
 import Tasks from "./features/tasks/TasksPage/Tasks";
 import TaskPage from "./features/tasks/TaskPage";
 import Author from "./features/tasks/author/Author";
+import Navigation from "./features/tasks/Navigation";
 
 export default () => (
-    <HashRouter>
-        <nav>
-            <ul>
-                <li>
-                    <NavLink activeClassName="active" to="/zadania">
-                        Zadania
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink activeClassName="active" to="/autor">
-                        O autorze
-                    </NavLink>
-                </li>
-            </ul>
+    <HashRouter> 
+           <Navigation />
             <Switch>
                 <Route path="/zadania/:id">
                     <TaskPage />
@@ -32,7 +21,7 @@ export default () => (
                     <Redirect to="/zadania" />
                 </Route>
             </Switch>
-        </nav>
+        
 
     </HashRouter>
 )
