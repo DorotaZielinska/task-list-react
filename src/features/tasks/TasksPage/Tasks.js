@@ -4,6 +4,7 @@ import Section from "../../../common/Section";
 import Header from '../../../common/Header';
 import Container from '../../../common/Container';
 import TasksList from './TasksList';
+import Search from './Search';
 
 function Tasks() {
   return (
@@ -11,7 +12,11 @@ function Tasks() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
-        body={<Form/>}
+        body={<Form />}
+      />
+       <Section
+        title="Wyszukiwarka"
+        body={<Search />}
       />
       <Section
         title="Lista zadań"
