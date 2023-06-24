@@ -5,6 +5,7 @@ import Header from '../../../common/Header';
 import Container from '../../../common/Container';
 import TasksList from './TasksList';
 import Search from './Search';
+import FetchExampleTasksButton from '../FetchExampleTasksButton';
 
 function Tasks() {
   return (
@@ -12,9 +13,11 @@ function Tasks() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={
+          <FetchExampleTasksButton />}
         body={<Form />}
       />
-       <Section
+      <Section
         title="Wyszukiwarka"
         body={<Search />}
       />
