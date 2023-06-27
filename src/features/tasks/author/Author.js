@@ -1,6 +1,7 @@
 import Container from "../../../common/Container";
 import Header from "../../../common/Header";
 import Section from "../../../common/Section";
+import { StyledLinkText } from "./styled";
 
 export default () => (
     <Container>
@@ -8,7 +9,25 @@ export default () => (
         <Section
             title="Dorota Zielińska"
             body={
-                <>nanan</>
+                <>
+                    <p>
+                        Aktualnie jestem w trakcie nauki programowania w internetowej szkole <StyledLinkText rel="noreferrer noopener"
+                            target="_blank"
+                            href="https://youcode.pl/zostawiam-maila/"
+                            title="szkoła programowania frontend developer(otworzy się w nowym oknie)"
+                        >YouCode</StyledLinkText>.
+                    </p>
+                    <p>
+                        Każdy z modułów wnosi swoją <em>wartość w procesie nauki</em>.
+                        Oczywiście wymaga to ciągłej praktyki, wytrwałośći i nie poddawania się,
+                        a włożony wysiłek widać co efektem są wykonane aplikacje.
+                    </p>
+                    <p>
+                        Dbam o swoje ciało, umysł i duszę, a sposobów aby to czynić jest wiele, mam swój <i>balance</i>.
+                        To poranna gimnastyka, to rowerem po leśnych ścieżkach śmigam, to spacerkiem okolice zwiedzam,
+                        to poczytam, to pomaluje, to pomajsterkuje i to tylko część z tego co kreuje.
+                    </p>
+                </>
             }
         />
     </Container>
