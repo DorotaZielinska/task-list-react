@@ -11,11 +11,11 @@ export default () => (
             body={
                 <>
                     <p>
-                        Aktualnie jestem w trakcie nauki programowania w internetowej szkole <StyledLinkText rel="noreferrer noopener"
+                        Aktualnie jestem w trakcie nauki programowania w internetowej szkole <a rel="noreferrer noopener"
                             target="_blank"
                             href="https://youcode.pl/zostawiam-maila/"
                             title="szkoła programowania frontend developer(otworzy się w nowym oknie)"
-                        >YouCode</StyledLinkText>.
+                        >YouCode</a>.
                     </p>
                     <p>
                         Każdy z modułów wnosi swoją <em>wartość w procesie nauki</em>.
