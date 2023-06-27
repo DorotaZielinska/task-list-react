@@ -1,4 +1,10 @@
+import { Link } from "react-router-dom/cjs/react-router-dom";
 import styled, {css} from "styled-components";
+
+export const TaskLink = styled(Link)`
+text-decoration: none;
+color: ${({ theme }) => theme.color.teal};
+`;
 
 export const TaskList = styled.ul`
     list-style: none;
@@ -13,7 +19,7 @@ export const Item = styled.li`
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ccc;
-
+    
     ${({ hidden }) => hidden && css`
        display: none;
     `}
@@ -60,3 +66,4 @@ export const Button = styled.button`
         }
     `}
 `;
+
